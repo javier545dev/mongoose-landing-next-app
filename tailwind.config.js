@@ -27,8 +27,5 @@ module.exports = {
       'dark',
     ],
   },
-  plugins: [
-    require('daisyui'),
-    require('@headlessui/tailwindcss')({ prefix: 'ui' }),
-  ],
+  plugins: [require('daisyui')],
 }
