@@ -1,18 +1,23 @@
-import { FC } from 'react'
+import { FadeUp } from '../animations/FadeUp'
 
-export const Hero: FC = () => {
+export const Hero = () => {
   return (
-    <div className='min-w-screen hero min-h-screen bg-base-200 pt-[5vh] md:pt-[15vh]'>
-      <div className='hero-content text-center'>
-        <div className='max-w-md'>
-          <h1 className='text-5xl font-bold text-secondary'>Hello</h1>
-          <h1 className='py-5 text-5xl font-bold text-primary'>Crypto-Lover</h1>
-          <p className='py-6'>
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
-          </p>
-        </div>
+    <div className='min-w-screen hero min-h-screen bg-base-200 pt-[15vh]'>
+      <div className='hero-content text-center px-10'>
+        <FadeUp>
+          <div className='max-w-lg'>
+            <h1 className='text-left text-5xl font-bold text-secondary'>Hello</h1>
+            <h2 className='text-left text-5xl font-bold text-secondary'>Crypto-Lover</h2>
+            <h3 className='py-5 text-2xl text-left font-normal text-primary my-4'>Simplifying access to cryptocurrencies and financial inclusion...</h3>
+            <div className='flex flex-row items-center my-4'>
+              <button
+                className='rounded bg-secondary px-14 py-2 text-base-100'
+              >
+                Know us
+              </button>
+            </div>
+          </div>
+        </FadeUp>
       </div>
     </div>
   )

@@ -1,6 +1,6 @@
-import { ReactNode, Dispatch, SetStateAction } from 'react'
+import { Dispatch, SetStateAction } from 'react'
 import Link from 'next/link'
-import { Card } from '../skeleton/card/Card'
+// import { Card } from '../skeleton/card/Card'
 
 interface Props {
   isOpen: boolean
@@ -39,6 +39,11 @@ export const Drawer = ({ isOpen, setIsOpen }: Props) => {
               </Link>
             </ul>
             <ul className='transition delay-150 ease-in-out hover:border-b-2 hover:border-secondary'>
+              <Link href={'/services'}>
+                <a onClick={() => setIsOpen(false)}>Services</a>
+              </Link>
+            </ul>
+            <ul className='transition delay-150 ease-in-out hover:border-b-2 hover:border-secondary'>
               <Link href={'/about'}>
                 <a onClick={() => setIsOpen(false)}>About</a>
               </Link>
@@ -46,7 +51,7 @@ export const Drawer = ({ isOpen, setIsOpen }: Props) => {
             <ul className='rounded bg-secondary px-4 py-1 text-base-100 transition-all'>
               <a onClick={() => setIsOpen(false)}>Logout</a>
             </ul>
-            <Card />
+            {/* <Card /> */}
           </div>
           <div className='flex items-center justify-center'>
             <h2 className='text-xs text-primary'>Copyright Mongoose ©</h2>

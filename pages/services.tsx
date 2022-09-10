@@ -1,11 +1,11 @@
 import { Layout } from '../components/layout/Layout'
-import { About } from '../components/about/About'
+import { Services } from '../components/services/Services'
 
 export default function about() {
   return (
     <>
       <Layout>
-        <About />
+        <Services />
       </Layout>
     </>
   )

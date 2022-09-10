@@ -1,5 +1,6 @@
 import { Dispatch, SetStateAction } from 'react'
 import Link from 'next/link'
+import { BiMenuAltRight } from 'react-icons/bi'
 
 interface Props {
   setIsOpen: Dispatch<SetStateAction<boolean>>
@@ -7,9 +8,9 @@ interface Props {
 
 export const Header = ({ setIsOpen }: Props) => {
   return (
-    <header className='fixed z-40 w-screen bg-base-100 p-7'>
-      <div className='flex justify-between '>
-        <h1 className='px-3 py-1 text-center text-xl font-medium text-secondary transition delay-150 ease-in-out hover:rounded hover:bg-secondary hover:text-base-100'>
+    <header className='fixed z-40 w-screen bg-base-100 p-5 md:p-7'>
+      <div className='flex justify-between md:px-10'>
+        <h1 className='px-2 py-1 text-center text-xl font-medium text-secondary transition delay-150 ease-in-out hover:rounded hover:bg-secondary hover:text-base-100'>
           <Link href={'/'}>
             <a onClick={() => setIsOpen(false)}>Mongoose</a>
           </Link>
@@ -26,19 +27,24 @@ export const Header = ({ setIsOpen }: Props) => {
             </Link>
           </ul>
           <ul className='transition delay-150 ease-in-out hover:border-b-2 hover:border-secondary'>
+            <Link href={'/services'}>
+              <a onClick={() => setIsOpen(false)}>Services</a>
+            </Link>
+          </ul>
+          <ul className='transition delay-150 ease-in-out hover:border-b-2 hover:border-secondary'>
             <Link href={'/about'}>
               <a onClick={() => setIsOpen(false)}>About</a>
             </Link>
           </ul>
-          <ul className='rounded bg-secondary px-4 py-1 text-base-100'>
+          {/* <ul className='rounded bg-secondary px-4 py-1 text-base-100'>
             <a onClick={() => setIsOpen(false)}>Logout</a>
-          </ul>
+          </ul> */}
         </div>
         <button
-          className='rounded bg-secondary px-4 py-1 text-base-100 md:hidden'
+          className='rounded bg-secondary px-2 py-1 text-base-100 md:hidden'
           onClick={() => setIsOpen(true)}
         >
-          Menu
+          <BiMenuAltRight className='text-2xl text-base-100 font-medium' />
         </button>
       </div>
     </header>

@@ -1,6 +1,4 @@
-import { FC } from 'react'
-
-export const Player: FC = () => {
+export const Player = () => {
   return (
     <div className='min-w-screen flex min-h-screen flex-col md:flex-row gap-2 md:gap-10 items-center justify-center bg-base-200 pt-[5vh] md:pt-[15vh]'>
       <div className='text-center'>
@@ -28,7 +26,8 @@ export const Player: FC = () => {
                 <div>
                   <div className='relative h-1 bg-gray-200'>
                     <div className='absolute h-full w-1/2 bg-secondary flex items-center justify-end'>
-                      <div className='rounded-full w-3 h-3 bg-white shadow'></div>
+                      <div className='rounded-full w-3 h-3 bg-white shadow'>
+                      </div>
                     </div>
                   </div>
                 </div>
