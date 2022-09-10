@@ -3,7 +3,7 @@ import { Header } from '../header/Header'
 import { Drawer } from '../drawer/Drawer'
 import { Footer } from '../footer/Footer'
 
-type Props = {
+interface Props {
   children: ReactNode
 }
 export const Layout = ({ children }: Props) => {
