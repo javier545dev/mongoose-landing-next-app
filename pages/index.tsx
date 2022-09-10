@@ -1,7 +1,7 @@
 import { Layout } from '../components/layout/Layout'
 import { Hero } from '../components/hero/Hero'
 
-export default function Home() {
+export default function HomePage() {
   return (
     <>
       <Layout>

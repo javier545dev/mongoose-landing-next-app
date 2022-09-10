@@ -1,7 +1,7 @@
 import { Layout } from '../components/layout/Layout'
 import { Services } from '../components/services/Services'
 
-export default function about() {
+export default function ServicesPage() {
   return (
     <>
       <Layout>
