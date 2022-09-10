@@ -1,5 +1,6 @@
 import { Dispatch, SetStateAction } from 'react'
 import Link from 'next/link'
+import { MdClose } from 'react-icons/md'
 // import { Card } from '../skeleton/card/Card'
 
 interface Props {
@@ -24,8 +25,13 @@ export const Drawer = ({ isOpen, setIsOpen }: Props) => {
         }
       >
         <article className='relative flex h-full w-screen max-w-lg flex-col space-y-6 overflow-y-scroll pb-10'>
-          <header className='mx-auto flex p-8 text-lg font-bold'>
-            <h2>Mongoose</h2>
+          <header className='flex justify-between p-8 text-lg font-bold'>
+            <div className='flex items-center'>
+              <h2>Mongoose</h2>
+            </div>
+            <button className='rounded bg-secondary px-2 py-1 text-base-100' onClick={() => setIsOpen(false)}>
+              <MdClose className='text-2xl text-base-100 font-medium' />
+            </button>
           </header>
           <div className='flex h-screen flex-col items-center justify-center gap-7'>
             <ul className='transition delay-150 ease-in-out hover:border-b-2 hover:border-secondary'>

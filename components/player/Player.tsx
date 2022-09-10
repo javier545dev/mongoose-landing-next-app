@@ -5,7 +5,7 @@ export const Player = () => {
         <div className='flex flex-col justify-center max-w-md pt-10 items-center text-center h-1/2 '>
           <h1 className='text-5xl font-medium text-secondary md:pl-10'>Demo of Course</h1>
         </div>
-        <div className='flex items-center h-1/2 py-10'>
+        <div className='flex items-center h-1/2 pb-10'>
           <div>
             <div className='flex max-w-lg w-full bg-base-100 shadow-md rounded-lg overflow-hidden mx-auto'>
               <div className='flex flex-col m-5 '>
@@ -82,9 +82,6 @@ export const Player = () => {
             </div>
           </div>
         </div>
-
-
-
       </div>
 
     </div>
