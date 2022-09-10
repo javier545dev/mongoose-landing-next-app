@@ -1,11 +1,11 @@
 export const Player = () => {
   return (
-    <div className='min-w-screen flex min-h-screen flex-col md:flex-row gap-2 md:gap-10 items-center justify-center bg-base-200 pt-[5vh] md:pt-[15vh]'>
-      <div className='flex gap-20 animate-fade-in-up px-10'>
-        <div className='flex flex-col justify-center max-w-md py-10 items-center'>
-          <h1 className='text-5xl font-medium text-secondary pl-10'>Demo of Course</h1>
+    <div className='min-w-screen flex min-h-screen flex-col md:flex-row gap-2 md:gap-10 items-center justify-center bg-base-200 pt-[15vh]'>
+      <div className='flex flex-col md:flex-row gap-10 md:gap-20 animate-fade-in-up px-10 items-center'>
+        <div className='flex flex-col justify-center max-w-md pt-10 items-center text-center h-1/2 '>
+          <h1 className='text-5xl font-medium text-secondary md:pl-10'>Demo of Course</h1>
         </div>
-        <div className='items-center'>
+        <div className='flex items-center h-1/2 py-10'>
           <div>
             <div className='flex max-w-lg w-full bg-base-100 shadow-md rounded-lg overflow-hidden mx-auto'>
               <div className='flex flex-col m-5 '>

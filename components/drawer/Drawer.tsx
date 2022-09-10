@@ -48,10 +48,10 @@ export const Drawer = ({ isOpen, setIsOpen }: Props) => {
                 <a onClick={() => setIsOpen(false)}>About</a>
               </Link>
             </ul>
-            <ul className='rounded bg-secondary px-4 py-1 text-base-100 transition-all'>
+            {/* <ul className='rounded bg-secondary px-4 py-1 text-base-100 transition-all'>
               <a onClick={() => setIsOpen(false)}>Logout</a>
             </ul>
-            {/* <Card /> */}
+            <Card /> */}
           </div>
           <div className='flex items-center justify-center'>
             <h2 className='text-xs text-primary'>Copyright Mongoose ©</h2>
