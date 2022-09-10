@@ -1,4 +1,4 @@
-import { Layout } from '../components/layout/Layout'
+import { Layout } from '../components/Layout/Layout'
 import { About as AboutComponent } from '../components/about/About'
 
 export default function AboutPage() {
