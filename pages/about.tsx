@@ -1,11 +1,11 @@
 import { Layout } from '../components/layout/Layout'
-import { About } from '../components/about/About'
+import { About as AboutComponent } from '../components/about/About'
 
 export default function AboutPage() {
   return (
     <>
       <Layout>
-        <About />
+        <AboutComponent />
       </Layout>
     </>
   )
