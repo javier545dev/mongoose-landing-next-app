@@ -9,7 +9,7 @@ interface Props {
 export const Header = ({ setIsOpen }: Props) => {
   return (
     <header className='fixed z-40 w-screen bg-base-100 p-5 md:p-7'>
-      <div className='flex justify-between md:px-10'>
+      <div className='flex justify-between pr-3 md:px-10'>
         <h1 className='px-2 py-1 text-center text-xl font-medium text-secondary transition delay-150 ease-in-out hover:rounded hover:bg-secondary hover:text-base-100'>
           <Link href={'/'}>
             <a onClick={() => setIsOpen(false)}>Mongoose</a>

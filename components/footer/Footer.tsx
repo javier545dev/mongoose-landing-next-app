@@ -18,7 +18,6 @@ export const Footer = () => {
         <span className='footer-title'>Legal</span>
         <a className='link link-hover'>Terms of use</a>
         <a className='link link-hover'>Privacy policy</a>
-        <a className='link link-hover'>Cookie policy</a>
       </div>
       <div className='flex flex-col w-full'>
         <span className='footer-title'>Subscribe</span>
