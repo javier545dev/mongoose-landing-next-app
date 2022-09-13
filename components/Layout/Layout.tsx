@@ -9,7 +9,7 @@ interface Props {
 export const Layout = ({ children }: Props) => {
   const [isOpen, setIsOpen] = useState<boolean>(false)
   return (
-    <main data-theme='mytheme'>
+    <main data-theme='mytheme' className='overflow-scroll w-screen snap-y snap-mandatory'>
       <Header setIsOpen={setIsOpen} />
       {children}
       <Footer />

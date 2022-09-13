@@ -8,7 +8,7 @@ interface Props {
 
 export const Header = ({ setIsOpen }: Props) => {
   return (
-    <header className='fixed z-40 w-screen bg-base-100 p-5 md:p-7'>
+    <header id='/' className='fixed z-40 w-screen bg-base-100 p-5 md:p-7 snap-start'>
       <div className='flex justify-between pr-3 md:px-10'>
         <h1 className='px-2 py-1 text-center text-xl font-medium text-secondary transition delay-150 ease-in-out hover:rounded hover:bg-secondary hover:text-base-100'>
           <Link href={'/'}>
@@ -22,17 +22,17 @@ export const Header = ({ setIsOpen }: Props) => {
             </Link>
           </ul>
           <ul className='transition delay-150 ease-in-out hover:border-b-2 hover:border-secondary'>
-            <Link href={'/courses'}>
+            <Link href={'#course'}>
               <a onClick={() => setIsOpen(false)}>Courses</a>
             </Link>
           </ul>
           <ul className='transition delay-150 ease-in-out hover:border-b-2 hover:border-secondary'>
-            <Link href={'/services'}>
+            <Link href={'#services'}>
               <a onClick={() => setIsOpen(false)}>Services</a>
             </Link>
           </ul>
           <ul className='transition delay-150 ease-in-out hover:border-b-2 hover:border-secondary'>
-            <Link href={'/about'}>
+            <Link href={'#about'}>
               <a onClick={() => setIsOpen(false)}>About</a>
             </Link>
           </ul>

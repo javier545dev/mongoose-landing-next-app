@@ -1,6 +1,6 @@
 export const Hero = () => {
   return (
-    <div className='min-w-screen hero min-h-screen bg-base-200 pt-[15vh]'>
+    <section className='min-w-screen hero min-h-screen bg-base-200 pt-[15vh] snap-start'>
       <div className='hero-content text-center px-10 animate-fade-in-up'>
         <div className='max-w-lg'>
           <h1 className='text-left text-5xl font-bold text-secondary'>Hello</h1>
@@ -15,6 +15,6 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

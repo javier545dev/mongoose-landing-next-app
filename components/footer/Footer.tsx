@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <footer className='footer bg-base-100 p-10 text-base-content'>
+    <footer className='footer bg-base-100 p-10 text-base-content snap-start'>
       <div>
         <span className='footer-title'>Services</span>
         <a className='link link-hover'>Crypto Asset Management</a>
