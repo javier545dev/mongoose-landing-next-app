@@ -4,7 +4,7 @@ export const Services = () => {
   return (
     <section id='services' className='min-w-screen hero min-h-screen bg-base-200 pt-[20vh] lg:pt-[5vh] px-5 snap-start'>
       <div className='items-center flex justify-center flex-col md:justify-around gap-10'>
-        <h2 className='py-5 text-5xl font-medium text-secondary'>About Us?</h2>
+        <h2 className='py-5 text-5xl font-medium text-secondary'>Our Services</h2>
         <div className='items-center flex justify-center flex-col md:flex-row md:justify-around gap-10 md:gap-5 lg:gap-10 lg:px-10 pb-10 animate-fade-in-down'>
           <CardServices>
             <div className='flex items-center h-1/4'>

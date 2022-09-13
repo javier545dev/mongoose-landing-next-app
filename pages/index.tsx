@@ -10,8 +10,8 @@ export default function HomePage() {
       <Layout>
         <Hero />
         <Course />
-        <Services />
         <AboutComponent />
+        <Services />
       </Layout>
     </>
   )

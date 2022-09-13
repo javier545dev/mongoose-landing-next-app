@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export const Hero = () => {
   return (
     <section className='min-w-screen hero min-h-screen bg-base-200 pt-[15vh] snap-start'>
@@ -10,7 +12,9 @@ export const Hero = () => {
             <button
               className='rounded bg-secondary px-14 py-2 text-base-100'
             >
-              Know Us
+              <Link href={'#about'}>
+                Know Us
+              </Link>
             </button>
           </div>
         </div>
