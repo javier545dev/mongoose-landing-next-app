@@ -40,17 +40,17 @@ export const Drawer = ({ isOpen, setIsOpen }: Props) => {
               </Link>
             </ul>
             <ul className='transition delay-150 ease-in-out hover:border-b-2 hover:border-secondary'>
-              <Link href={'/courses'}>
+              <Link href={'#course'}>
                 <a onClick={() => setIsOpen(false)}>Courses</a>
               </Link>
             </ul>
             <ul className='transition delay-150 ease-in-out hover:border-b-2 hover:border-secondary'>
-              <Link href={'/services'}>
+              <Link href={'#services'}>
                 <a onClick={() => setIsOpen(false)}>Services</a>
               </Link>
             </ul>
             <ul className='transition delay-150 ease-in-out hover:border-b-2 hover:border-secondary'>
-              <Link href={'/about'}>
+              <Link href={'#about'}>
                 <a onClick={() => setIsOpen(false)}>About</a>
               </Link>
             </ul>
