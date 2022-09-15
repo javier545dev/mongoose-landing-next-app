@@ -35,7 +35,7 @@ export const Drawer = ({ isOpen, setIsOpen }: Props) => {
           </header>
           <div className='flex h-screen flex-col items-center justify-center gap-7'>
             <ul className='transition delay-150 ease-in-out hover:border-b-2 hover:border-secondary'>
-              <Link href={'/'}>
+              <Link href={'#hero'}>
                 <a onClick={() => setIsOpen(false)}>Home</a>
               </Link>
             </ul>

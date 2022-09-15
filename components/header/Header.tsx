@@ -7,17 +7,19 @@ interface Props {
 }
 
 export const Header = ({ setIsOpen }: Props) => {
+
+
   return (
-    <header id='/' className='sticky z-10 w-full top-0 bg-base-100 p-4 md:p-6 snap-start'>
+    <header className='sticky z-10 w-full top-0 bg-base-100 p-4 md:p-6 snap-start'>
       <div className='flex justify-between pr-3 md:px-10'>
         <h1 className='px-2 py-1 text-center text-xl font-medium text-secondary transition delay-150 ease-in-out hover:rounded hover:bg-secondary hover:text-base-100'>
-          <Link href={'/'}>
+          <Link href={'#hero'} scroll={true}>
             <a onClick={() => setIsOpen(false)}>Mongoose</a>
           </Link>
         </h1>
         <div className='hidden items-center justify-between gap-10 md:flex'>
           <ul className='transition delay-150 ease-in-out hover:border-b-2 hover:border-secondary'>
-            <Link href={'/'}>
+            <Link href={'#hero'}>
               <a onClick={() => setIsOpen(false)}>Home</a>
             </Link>
           </ul>

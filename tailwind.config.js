@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero: "url('https://wickedblocks.dev/assets/images/placeholders/squareCard.png')",
+        hero2: "url('../public/logo-mongoose.jpg')",
       },
       keyframes: {
         'fade-in-down': {
