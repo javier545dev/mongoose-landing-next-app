@@ -1,11 +1,11 @@
 export const Course = () => {
   return (
-    <section id="course" className='min-w-screen flex min-h-screen flex-col md:flex-row gap-2 md:gap-10 items-center justify-center bg-base-200 pt-[15vh] snap-start'>
+    <section id="course" className='min-w-screen flex min-h-screen flex-col md:flex-row gap-2 md:gap-10 items-center justify-center bg-base-200 pt-[15vh] w-full h-full relative snap-start'>
       <div className='flex flex-col md:flex-row gap-10 md:gap-20 animate-fade-in-up px-10 items-center'>
         {/* <div className='flex flex-col justify-center max-w-md pt-10 items-center text-center h-1/2 '>
           <h1 className='text-5xl font-medium text-secondary md:pl-10'>Demo of Course</h1>
         </div> */}
-        <div className='flex items-center h-1/2 pb-10'>
+        <div className='flex items-center pb-10'>
           <div>
             <div className='flex max-w-lg w-full bg-base-100 shadow-md rounded-lg overflow-hidden mx-auto'>
               <div className='flex flex-col m-5 '>

@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        hero: "url('https://wickedblocks.dev/assets/images/placeholders/squareCard.png')",
+      },
       keyframes: {
         'fade-in-down': {
           '0%': {
