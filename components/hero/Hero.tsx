@@ -14,7 +14,7 @@ export const Hero = () => {
           <p className="mb-8 text-base px-5 leading-relaxed text-center md:text-left text-gray-100 md:text-gray-400">Everything related to your cryptocurrency education and how to invest safe and confident.</p>
           <div className="mt-0 lg:mt-6 max-w-7xl sm:flex">
             <div className="mt-3 rounded-lg sm:mt-0 px-5">
-              <button className="items-center block px-10 py-2 text-base font-medium text-center text-base-200 transition duration-500 ease-in-out transform bg-secondary rounded-lg hover:bg-blue-700">
+              <button className="items-center block px-10 py-2 text-base font-medium text-center text-base-200 transition duration-500 ease-in-out transform bg-secondary rounded-lg hover:bg-orange-700">
                 <Link href={'#about'}>
                   Get Info
                 </Link>
