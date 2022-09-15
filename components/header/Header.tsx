@@ -8,7 +8,7 @@ interface Props {
 
 export const Header = ({ setIsOpen }: Props) => {
   return (
-    <header id='/' className='fixed z-40 w-screen bg-base-100 p-5 md:p-7 snap-start'>
+    <header id='/' className='sticky z-10 w-full top-0 bg-base-100 p-4 md:p-6 snap-start'>
       <div className='flex justify-between pr-3 md:px-10'>
         <h1 className='px-2 py-1 text-center text-xl font-medium text-secondary transition delay-150 ease-in-out hover:rounded hover:bg-secondary hover:text-base-100'>
           <Link href={'/'}>

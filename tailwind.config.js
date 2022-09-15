@@ -49,12 +49,17 @@ module.exports = {
             transform: 'translateY(100px)',
           },
         },
+        flipHorizontal: {
+          '50%': { transform: 'rotateY(180deg)' },
+        },
+        swing: {},
       },
       animation: {
         'fade-in-down': 'fade-in-down 1s ease-out',
         'fade-out-down': 'fade-out-down 1s ease-out',
         'fade-in-up': 'fade-in-up 1s ease-out',
         'fade-out-up': 'fade-out-up 1s ease-out',
+        'flip-horizontal': 'flipHorizontal 5s infinite',
       },
     },
     fontFamily: {

@@ -9,7 +9,6 @@ export default function HomePage() {
   return (
     <>
       <Head>
-
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
@@ -21,7 +20,7 @@ export default function HomePage() {
         <meta property="og:type" content="website" />
         <meta property="og:image" content="http://example.com/images/image.jpg" />
 
-        <title>Mongoose FinTech</title>
+        <title>Mongoose Fintech</title>
         <meta property="og:title" content="Mongoose" />
         <meta property="og:site_name" content="MongooseTech" />
         <meta property="og:url" content="https://mongoose-tech.vercel.app" />

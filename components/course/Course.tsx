@@ -7,7 +7,7 @@ export const Course = () => {
         </div> */}
         <div className='flex items-center pb-10'>
           <div>
-            <div className='flex max-w-lg w-full bg-base-100 shadow-md rounded-lg overflow-hidden mx-auto'>
+            <div className='flex max-w-lg w-full bg-base-100 shadow-md rounded-lg mx-auto'>
               <div className='flex flex-col m-5 '>
                 <div className='relative'>
                   <video className='w-screen '>
